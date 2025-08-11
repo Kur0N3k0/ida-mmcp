@@ -1,4 +1,4 @@
-IDA MMCP
+# IDA MMCP
 
 Multi-binary MCP aggregator for IDA Pro.
 
@@ -8,7 +8,7 @@ Multi-binary MCP aggregator for IDA Pro.
   - POST /unregister {"name":"projA"}
   - GET /sessions
 
-Usage
+## Usage
 
 ```sh
 uv run ida-mmcp --host 127.0.0.1 --port 8746 --control-port 8760
@@ -16,3 +16,6 @@ uv run ida-mmcp --host 127.0.0.1 --port 8746 --control-port 8760
 
 IDA plugin UI registers/unregisters itself to the control API and allows selecting the active session.
 
+## Patch
+### ida-pro-mcp
+- 
