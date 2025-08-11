@@ -1,0 +1,28 @@
+[project]
+name = "ida-mmcp"
+version = "0.1.0"
+description = "Multi-binary MCP server aggregator for IDA Pro"
+readme = "README.md"
+requires-python = ">=3.11"
+authors = [{ name = "ida-mmcp" }]
+keywords = ["ida", "mcp", "mmcp", "aggregator"]
+classifiers = [
+  "Development Status :: 3 - Alpha",
+  "Intended Audience :: Developers",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.11",
+  "Operating System :: POSIX :: Linux",
+]
+dependencies = [
+  "ida-pro-mcp>=1.3.0",
+  "mcp>=1.6.0",
+]
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project.scripts]
+ida-mmcp = "ida_mmcp.server:main"
+
+
