@@ -18,4 +18,4 @@ IDA plugin UI registers/unregisters itself to the control API and allows selecti
 
 ## Patch
 ### ida-pro-mcp
-- 
+- git clone [https://github.com/Kur0N3k0/ida-pro-mcp](https://github.com/Kur0N3k0/ida-pro-mcp)
